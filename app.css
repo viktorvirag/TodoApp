@@ -1,0 +1,86 @@
+body {
+    background: #D8E3E7;
+    color: #132C33;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    font-weight: 600;
+}
+.main-holder {
+    padding: 50px;
+}
+.input-and-button-holder {
+    display: flex;
+}
+.add-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 2px solid #132C33;
+    border-radius: 0 6px 6px 0;
+    background: #132C33;
+    color: white;
+}
+.text-input {
+    width: 100%;
+    padding: 8px 16px;
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: inherit;
+    border-radius: 6px 0 0 6px;
+    color: var(--input-color);
+    border: 2px solid #132C33;
+    background: #fff;
+    transition: border .3s ease;
+}
+.text-input:focus {
+    outline: none;
+    border-color: #126E82;
+} 
+.todo-text {
+    font-size: 16px;
+}
+.list {
+    margin-top: 50px;
+}
+.list-element-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    border-radius:  6px;
+    border: 2px solid #132C33;
+    box-sizing: border-box;
+    padding: 0 15px;
+    margin-bottom: 15px;
+}
+.control-button-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo-icon {
+    width: 25px;
+    cursor: pointer;
+}
+.delete-icon {
+    padding-left: 10px;
+}
+.completed-todo {
+    text-decoration: line-through wavy crimson;
+    position: relative;
+}
+.draggable {
+    cursor: move;
+}
+.draggable.dragging {
+    opacity: .5;
+}
+
